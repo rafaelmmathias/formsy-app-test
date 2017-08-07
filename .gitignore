@@ -1,0 +1,29 @@
+node_modules/
+bower_components/
+coverage/
+.sass-cache/
+.idea/
+.tmp/
+dist/
+.vscode
+.tmp/
+dist/
+.sonar/
+.serverless/
+
+#OS
+.DS_Store
+
+#SERVERLESS
+admin.env
+.env
+
+#Ignore _meta folder
+_meta
+
+# Logs
+logs
+*.log
+npm-debug.log
+
+.awspublish*

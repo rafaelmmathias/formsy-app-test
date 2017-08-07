@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "globals":{
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "$": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "15.2.1"
+    }
+  },
+  "rules": {
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "no-console": [0]
+  }
+}
